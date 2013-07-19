@@ -1,0 +1,142 @@
+body		{
+	color : black;
+	font-family : tahoma, sans-serif;
+	font-size : 12pt;
+}
+
+p			{
+	color : black;
+	font-family : tahoma, sans-serif;
+	font-size : 10pt;
+	line-height : 1.4;
+}
+#wrapper, header, nav, article, aside, footer {
+	margin : 2px;
+	border : 0.1em solid black;
+}
+#wrapper	{
+	position : relative; /*eg header becomes relative to the wrapper*/
+	margin : 0 auto; /* centres the element/div */
+	width : 800px;
+	height : auto;
+	overflow : auto; /* allows the element to stretch to its content(lookup the other overflow options)*/
+}
+
+header		{
+	position : relative; /* because its inside the wrapper*/
+	/* no need for margin due to its significance with the wrapper*/
+	margin : 0 auto; /* centre header inside wrapper*/
+	width : 98%; /*of wrapper*/
+	height : 150px; /* can be auto but this 150px is a fixed size*/
+	/* no need for overflow however if issues use overflow auto*/
+}
+
+nav#top-menu		{
+	position : relative; /*same as above*/
+	margin : 0 auto;
+	padding : 0;
+	width : 97.5%;
+	height : 30px;
+}
+
+#top-menu ul {
+	display : block;
+	list-style-type : none;
+	width: 800px;
+	margin : 0 auto;
+}
+
+#top-menu ul li {
+    margin: 0;
+    padding: 0;
+}
+#top-menu ul li a {
+    display: block;
+    float: left;
+    max-height: 25px;
+    width: 100px;
+    margin: 0;
+    padding: 5px 0;
+    font-family: tahoma, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    background-color: none;
+    text-decoration: none;
+    color: grey;
+    border-bottom: orange;
+}
+#top-menu ul li a:hover { 
+	border-bottom: orange solid 1px;
+}
+
+img.img-left {
+    display: block;
+    float: left;
+	padding: 0px;
+    margin: 0px 6pt 3px 0px;
+}
+
+img.img-right {
+    display: block;
+    float: right;
+	padding: 0px;
+    margin: 0px 6pt 3px 0px;
+}
+
+.clear {
+    margin: 0;
+    padding: 0;
+    clear: both;
+}
+
+#contentwrapper	{
+	position : relative;
+	margin : 0 auto;
+	width : 98%;
+	height : auto;
+	overflow : auto; /*overflow is used here because it has divs inside it*/
+}
+
+article		{
+	position : relative;
+	width : 70%;
+	height : auto;
+	padding : 8px 0;
+	margin-bottom : 30px;
+	float : left; /*float to position left*/
+	box-shadow: 10px 10px 5px silver;
+	color : black;
+}
+
+/* article */
+
+article {
+    width: 550px;
+    float: left;
+}
+
+aside	{
+	position : relative;
+	width : 25%;
+	height : auto;
+	float : right;
+	color : grey;
+}
+
+footer	{
+	position : relative;
+	margin : 0 auto;
+	width : 100%;
+	height : 30px;
+	background: #333;
+	clear : both; /*clears everything above, so it finishes aligned to everything above it*/
+}
+
+footer p {
+    color: orange;
+    font-size: 70%;
+    font-family: tahoma, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 5px 10px;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>
+		Palimpsest Paintings
+	</title>
+<link href="main.css" rel="stylesheet" type="text/css" />
+<link href="style.css" rel="stylesheet" type="text/css" />
+<meta http-equiv="Content-Type"
+content="text/html;charset=ISO-8859-1">
+</head>
+<body>
+	<div id="wrapper">
+	
+		<nav id="top-menu">
+			<ul>
+				<li> <a href="">Home</a> </li>
+				<li> <a href="">Biography</a> </li>
+				<li> <a href="">Gallery</a> </li>
+				<li> <a href="">Services</a> </li>
+				<li> <a href="">Contact</a> </li>
+			</ul>
+		</nav>
+		
+
+		
+		<footer>
+				<p> Copyright &copy; 2013 Palimpsest Paintings of Hampshire, England.
+				</p>
+		</footer>
+		
+	</div>
+	
+</body>
+</html>
